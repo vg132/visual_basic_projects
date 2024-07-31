@@ -1,0 +1,140 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+[Package|Standard Setup Package 1|Finder v3.0]
+Icon1="Finder 2.exe"
+Title1=Finder v3.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\New Folder
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Text=No
+Excel=No
+Jet 2.x=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+G:\Mina Program\Data Saver\Project2.dll=
+C:\windows\system\IconMenu32.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+D:\Mina Program\Finder 3\data.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+d:\microsoft visual studio\vb98\wizards\pdwizard\redist\msvcrt40.dll=
+c:\win98\system\msrepl35.dll=
+c:\win98\system\msrd2x35.dll=
+c:\win98\system\msjter35.dll=
+c:\win98\system\msjint35.dll=
+c:\win98\system\msjet35.dll=
+c:\win98\system\expsrv.dll=
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\win98\system\msvbvm60.dll=
+c:\win98\system\oleaut32.dll=
+c:\win98\system\olepro32.dll=
+c:\win98\system\asycfilt.dll=
+c:\win98\system\stdole2.tlb=
+d:\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Mina Program\Finder 3\Finder 3.exe=Yes
+C:\WIN98\SYSTEM\MSVBVM60.DLL=No
+C:\WIN98\SYSTEM\OLEAUT32.DLL=No
+C:\WIN98\SYSTEM\OLEPRO32.DLL=No
+C:\WIN98\SYSTEM\ASYCFILT.DLL=No
+C:\WIN98\SYSTEM\STDOLE2.TLB=No
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=No
+C:\WIN98\SYSTEM\MSJET35.DLL=No
+C:\WIN98\SYSTEM\MSJTER35.DLL=No
+C:\WIN98\SYSTEM\MSJINT35.DLL=No
+C:\WIN98\SYSTEM\VBAJET32.DLL=Yes
+C:\WIN98\SYSTEM\EXPSRV.DLL=No
+C:\WIN98\SYSTEM\MSRD2X35.DLL=No
+C:\WIN98\SYSTEM\MSREPL35.DLL=No
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=No
+C:\WIN98\SYSTEM\VB5DB.DLL=Yes
+C:\WIN98\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WIN98\SYSTEM\COMDLG32.OCX=Yes
+C:\WIN98\SYSTEM\VB6STKIT.DLL=Yes
+D:\Mina Program\Finder 3\data.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+G:\Mina Program\Data Saver\Finder 2.exe=$(AppPath)
+C:\windows\system\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\windows\system\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\windows\system\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\windows\system\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\windows\system\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\windows\system\MSCOMCTL.OCX=$(WinSysPath)
+C:\windows\system\COMDLG32.OCX=$(WinSysPath)
+C:\windows\system\IconMenu32.ocx=$(WinSysPath)
+G:\Mina Program\Data Saver\Project2.dll=$(WinSysPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\windows\system\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Mina Program\Finder 3\Finder 3.exe=$(AppPath)
+C:\WIN98\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WIN98\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WIN98\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WIN98\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WIN98\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Mina Program\Finder 3\data.mdb=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+G:\Mina Program\Data Saver\Finder 2.exe=No
+D:\Mina Program\Finder 3\Finder 3.exe=No
+D:\Mina Program\Finder 3\data.mdb=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Finder v3.0
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Finder
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Finder]
+Icon1="Finder 2.exe"
+Title1=Finder
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=G:\New Folder
+ProjectFolder=G:\Mina Program\Visual Basic\Data Saver
+ServerSideCab=
+File1=G:\New Folder\setup.exe
+File2=G:\New Folder\Setup.Lst
+File3=G:\New Folder\Finder 3.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

@@ -1,0 +1,96 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\Mina Program\Visual Basic\INet Timer\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=
+C:\WIN98\SYSTEM\WININET.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\win98\system\msvbvm60.dll=
+c:\win98\system\oleaut32.dll=
+c:\win98\system\olepro32.dll=
+c:\win98\system\asycfilt.dll=
+c:\win98\system\stdole2.tlb=
+d:\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Mina Program\INet Counter\INet Counter.exe=Yes
+C:\WIN98\SYSTEM\MSVBVM60.DLL=No
+C:\WIN98\SYSTEM\OLEAUT32.DLL=No
+C:\WIN98\SYSTEM\OLEPRO32.DLL=No
+C:\WIN98\SYSTEM\ASYCFILT.DLL=No
+C:\WIN98\SYSTEM\STDOLE2.TLB=No
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WIN98\SYSTEM\WININET.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=Yes
+C:\WIN98\SYSTEM\COMCTL32.OCX=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WIN98\SYSTEM\VB6STKIT.DLL=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Mina Program\INet Counter\INet Counter.exe=$(AppPath)
+C:\WIN98\SYSTEM\WININET.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=$(WinSysPath)
+C:\WIN98\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WIN98\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Mina Program\INet Counter\INet Counter.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=INet Counter
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=INet Counter
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|INet Counter]
+Icon1="INet Counter.exe"
+Title1=INet Counter
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\My Documents\Mina Program\Visual Basic\INet Timer\Package
+ProjectFolder=C:\My Documents\Mina Program\Visual Basic\INet Timer
+ServerSideCab=
+File1=C:\My Documents\Mina Program\Visual Basic\INet Timer\Package\setup.exe
+File2=C:\My Documents\Mina Program\Visual Basic\INet Timer\Package\Setup.Lst
+File3=C:\My Documents\Mina Program\Visual Basic\INet Timer\Package\INet Counter.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

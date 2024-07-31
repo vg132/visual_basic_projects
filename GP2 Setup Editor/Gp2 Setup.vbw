@@ -1,0 +1,7 @@
+frmPitStop = 0, 0, 0, 0, C, 22, 22, 514, 466, C
+modSave = 66, 66, 568, 510, C
+modMisc = 0, 0, 0, 0, C
+modOpen = 176, 176, 681, 620, C
+modCheckSum = 0, 0, 0, 0, C
+frmSetup = 0, 0, 0, 0, C, 44, 44, 536, 488, C
+Form1 = 88, 88, 580, 532, C, 66, 66, 558, 510, C

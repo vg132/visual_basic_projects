@@ -1,0 +1,12 @@
+frmMain = 66, 66, 597, 510, C, 44, 44, 575, 488, C
+modBlock = 88, 88, 750, 372, C
+modDetect = 154, 154, 685, 598, C
+modBlockBuild = 22, 22, 553, 466, C
+modMisc = 0, 0, 531, 444, C
+frmKeyConfig = 44, 44, 575, 488, C, 0, 0, 531, 444, C
+frmPause = 22, 22, 553, 466, C, 22, 22, 553, 466, C
+modKeybord = 110, 110, 641, 554, C
+frmReadKey = 0, 0, 531, 444, C, 198, 198, 729, 642, C
+frmStart = 110, 110, 637, 554, C, 88, 88, 615, 532, C
+modReg = 176, 176, 687, 620, C
+modSound = 0, 0, 511, 444, Z

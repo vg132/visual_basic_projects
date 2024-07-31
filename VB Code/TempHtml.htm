@@ -1,0 +1,46 @@
+<Html><!-- End Breadcrumb -->
+<font face=arial, helvetica size=2>
+
+
+<p><font color="#000000">Make a new project. Add a module. To the form add a list view and
+a command button.</font></p>
+
+<p><font color="#000000"><u>Code:<big><br>
+</big></u>Add this code to the module:</font></p>
+
+<p><font color="#000000"><em>Const LVM_FIRST = &amp;H1000<br>
+Const LVM_SETEXTENDEDLISTVIEWSTYLE = LVM_FIRST + 54<br>
+Const LVM_GETEXTENDEDLISTVIEWSTYLE = LVM_FIRST + 55<br>
+Const LVS_EX_GRIDLINES = &amp;H1<br>
+Declare Function SendMessageLong Lib &quot;user32&quot; Alias _<big><br>
+</big>&quot;SendMessageA&quot; (ByVal hwnd As Long, ByVal Msg As Long, _<big><br>
+</big>ByVal wParam As Long, ByVal lParam As Long) As Long<br>
+<big><br>
+</big>Public Sub LVSetGridLine(lstvw As ListView)<br>
+Dim rs As Long<br>
+Dim r As Long<br>
+rs = SendMessageLong(lstvw.hwnd, LVM_GETEXTENDEDLISTVIEWSTYLE, 0&amp;, 0&amp;)<br>
+rs = rs Or LVS_EX_GRIDLINES<br>
+r = SendMessageLong(lstvw.hwnd, LVM_SETEXTENDEDLISTVIEWSTYLE, 0&amp;, rs)<br>
+End Sub</em></font></p>
+
+<p><font color="#000000"><u>Add this code to the command button:</u></font></p>
+
+<p><font color="#000000"><em>Private Sub Command1_Click()<br>
+ListView1.ColumnHeaders.Add , , &quot;Col1&quot;<br>
+ListView1.ColumnHeaders.Add , , &quot;Col2&quot;<br>
+Dim itmx As ListItem<br>
+Set itmx = ListView1.ListItems.Add(, , &quot;Hello&quot;)<br>
+itmx.SubItems(1) = &quot;World 1&quot;<br>
+Set itmx = ListView1.ListItems.Add(, , &quot;Hello&quot;)<br>
+itmx.SubItems(1) = &quot;World 2&quot;<br>
+ListView1.View = lvwReport<br>
+LVSetGridLine ListView1<br>
+End Sub</em></font></p>
+
+<p><font color="#000000">If you have problems using the code then please e-mail me.</font></p>
+</td>
+<td width=8><img src=/images/clear.gif width=8></td>
+<td valign=top width=125><br>
+<p><br>
+</html>
